@@ -1,0 +1,194 @@
+@media (min-width:768px) {
+
+    .white-p {
+        margin: 2.5rem 3.625rem;
+    }
+
+    .jeremy-div {
+        background-image: url(assets/image-jeremy-small.png);
+        width: 252px;
+        height: 400px;
+
+    }
+
+    .main-cont {
+        margin-top: 4.1rem;
+    }
+
+    #jeremy-sec {
+        margin: 17rem 2.5rem 0 2.5rem;
+    }
+
+
+    .phone-img {
+        background-image: url(assets/image-hero-portrait.png);
+        padding: 20%;
+        height: 480px;
+        margin-top: 0;
+        margin-right: 1rem;
+        background-position: center;
+        z-index: 1;
+        position: relative;
+
+
+    }
+
+    .main-p {
+        margin: 2.5rem 0;
+    }
+
+    .main-txt {
+        font-size: var(--h-xl);
+        line-height: var(--h-xl-l);
+        width: 150%;
+        z-index: 5;
+        position: relative;
+
+    }
+
+    .nums {
+        flex-direction: row;
+        margin-top: 5.5rem;
+    }
+
+    .main-cont-s {
+        flex-direction: row;
+        position: relative;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        min-height: 60vh;
+        margin-top: -45vh;
+
+
+    }
+
+    .footer-cont {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 15vh;
+        width: 100%;
+        margin: 0 2.5rem;
+    }
+
+
+    .copy,
+    footer .logo,
+    .icons {
+        margin: 0;
+    }
+}
+
+@media (min-width:1024px) {
+    .main-cont {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nums {
+        flex-direction: column;
+        width: 25%;
+    }
+
+    header,
+    section {
+        margin: 0 2.5rem;
+    }
+
+    .phone-img {
+        background-image: url(assets/image-hero-portrait.png);
+        padding: 0%;
+        height: 600px;
+        width: 60%;
+        margin-top: 0;
+        margin-right: 1rem;
+        background-position: center;
+        z-index: 1;
+        position: relative;
+    }
+}
+
+@media (min-width:1440px) {
+
+    #jeremy-sec {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        margin: 12.4rem 10.25rem 0 10.25rem;
+        height: 90%;
+        height: 530px;
+    }
+
+    .jeremy-text {
+        width: 50%;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jeremy-div {
+        background-image: url(assets/image-jeremy-large.png);
+        width: 359.81px;
+        height: 589.557px;
+        margin: 0;
+        width: 50%;
+        background-position: center;
+        margin-bottom: 60px;
+
+    }
+
+    .jeremy-div::after {
+        content: '';
+        background-image: url(assets/pattern-curved-line-2.svg);
+        position: absolute;
+        top: 250px;
+        right: -250px;
+        background-repeat: no-repeat;
+        height: 4rem;
+        background-position: center;
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+
+    }
+
+    .white-p {
+        margin: 2.5rem 7.8rem;
+    }
+
+    .jeremy-header {
+        margin-top: 88px;
+    }
+
+    .jeremy-header,
+    .bold-m,
+    .thin-p {
+        margin-left: 125px;
+    }
+
+
+    .nums {
+        flex-direction: column;
+        width: 20%;
+    }
+
+    header,
+    section {
+        margin: 0 10.5rem;
+    }
+
+    .phone-img {
+        width: 70%;
+    }
+
+    .footer-cont {
+
+        margin: 0 10.5rem;
+    }
+
+}
