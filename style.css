@@ -252,6 +252,12 @@ footer {
     justify-content: space-between;
 }
 
+.icons img:hover {
+    fill: var(--dark-blue, #172339);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 footer .logo {
     margin-top: 3.5rem;
 }
